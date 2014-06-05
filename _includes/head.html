@@ -1,0 +1,30 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content="{{ site.description }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	
+	<!-- Essential stylesheets -->
+	<link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/css/magnific-popup.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/css/bxslider.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/css/owl.carousel.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/css/owl.theme.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/css/base.css" | prepend: site.baseurl }}">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+	
+	<!-- The favicon -->
+	<!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
