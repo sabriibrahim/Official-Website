@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if IE 7]><html lang="en" class="ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><html lang="en"><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
+
+
+{% include head.html %}
+
+
+<body>
+
+{% include header.html %}
+{% include home.html %}
+{% include intro.html %}
+{% include work.html %}
+{% include calltoaction.html %}
+{% include services.html %}
+{% include process.html %}
+
+<section id="about" class="about section-slider">
+	<!-- Title -->
+	<div class="row title">
+	  <h2>About</h2>
+	  <hr>
+	</div>
+
+  {{ content }}
+</section>
+{% include quotes.html %}
+{% include team.html %}
+{% include contact.html %}
+{% include footer.html %}
+
+</body>
+</html>

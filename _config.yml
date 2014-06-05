@@ -1,0 +1,10 @@
+# Site settings
+title: Woolandcandy | Web and Mobile App Development Agency Malaysia
+email: contact@woolandcandy.com
+description: "We're small, passionate, & powerful team who can create quality products that enrich the lives of others. (@woolandcandy), a Web and Mobile App Development Agency based in Kuala Lumpur, Malaysia"
+baseurl: ""
+url: "http://woolandcandy.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
